@@ -5,7 +5,7 @@ import time
 GPIO.setmode(GPIO.BCM)
 
 # Set up GPIO pin 17 as an output
-LED_PIN = 17
+LED_PIN =5
 GPIO.setup(LED_PIN, GPIO.OUT)
 
 try:
