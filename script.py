@@ -1,9 +1,3 @@
-import subprocess
-import sys
-
-# Ensure the RPi.GPIO library is installed
-subprocess.check_call([sys.executable, "-m", "pip", "install", "RPi.GPIO"])
-
 import RPi.GPIO as GPIO
 import time
 
