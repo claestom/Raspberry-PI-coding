@@ -25,3 +25,7 @@ try:
     # Turn off the LED
     GPIO.output(LED_PIN, GPIO.LOW)
     print("LED is off")
+
+finally:
+    # Clean up the GPIO settings
+    GPIO.cleanup()
